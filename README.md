@@ -1,2 +1,1 @@
-# AutomataLab
-Automata ve Biçimsel Diller
+# deneme
