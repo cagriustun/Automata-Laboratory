@@ -18,7 +18,7 @@
 <p>
 Pattern <input type=text id=pat onKeyUp="checkRE()">&emsp; 
 <select id=menu onChange="setValues()">
-<option>Letter<option>Number<option>Suffix<option>x+letter
+<option>Letter<option>Number<option>Suffix<option>x+letter<option>Mastar Eki<option>18 yaşından küçük olanlar
 </select> 
 </p>
 <p>
@@ -35,10 +35,10 @@ Input <input type=text id=inp onKeyUp="checkRE()">
 
 <script>
 "use strict";
-const ptrn = ["[a-z]", "[0-9]{4}", "d[iuü][km]", "x[a-z]"];
+const ptrn = ["[a-z]", "[0-9]{4}", "d[iuü][km]", "x[a-z]","m[ae]k|m[ae]","20[0][2-9]|20[1][0-9]"];
 const word = 
     ["Bir iki üç dört beş altı ", "Bugün 23/6/2018 saat 14",
-     "Geldim gördüm buldum...", "Excellent expression tax "];
+     "Geldim gördüm buldum...", "Excellent expression tax ","Oyun oynama,Ev ödevi yapmak,Denizde yüzmek,Bisiklete binmek","1. 1990 - 2. 1997 - 3. 2001 - 4. 2005 - 5. 2010 - 6. 2019 - 7. 2002"];
 function setValues() {
     pat.value = ptrn[menu.selectedIndex];
     inp.value = word[menu.selectedIndex];
