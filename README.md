@@ -1,5 +1,5 @@
 # AutomataLab
 Automata ve Biçimsel Diller
 
-* [CW](https://www.google.com)
-- [HW1](https://www.google.com)
+* [CW3](https://cagriustun.github.io/AutomataLab/RegExp.html)
+- [HW1](https://cagriustun.github.io/AutomataLab/Homework1.html)
