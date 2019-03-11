@@ -1,3 +1,5 @@
 # AutomataLab
 Automata ve Biçimsel Diller
-[I'm an inline-style link](https://www.google.com)
+
+* [CW](https://www.google.com)
+- [HW1](https://www.google.com)
