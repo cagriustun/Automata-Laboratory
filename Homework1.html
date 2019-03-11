@@ -37,7 +37,7 @@ function setValues() {
 }
 function checkRE() {
     if (inp.value) {
-	var strexp = /(")[^(")]*(")/g;
+	var strexp = /"[^"]*"/g;
 	var arrexp = /\[[^\]]*\]/g;
 	var str = "<span class=foundStrings>$&</span>";
 	var arr = "<span class=foundArrays>$&</span>";
