@@ -6,6 +6,7 @@ Automata ve Biçimsel Diller
 
 * [CW3](https://cagriustun.github.io/AutomataLab/RegExp.html)
 * [CW4](https://cagriustun.github.io/AutomataLab/CW4.html)
+* [CW5](https://cagriustun.github.io/AutomataLab/CW5.html)
 
 ---
 
