@@ -17,5 +17,5 @@ Automata ve Biçimsel Diller
 
 ### TermProject
 
-- [TermProject](https://cagriustun.github.io/AutomataLab/Homework1.html)
+- [TermProject](https://cagriustun.github.io/AutomataLab/TermProject.html)
 
