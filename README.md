@@ -3,8 +3,8 @@
 Automata ve Biçimsel Diller
 
 ### ClassWorks
-* [CW1](https://cagriustun.github.io/AutomataLab/CW5.html)
-* [CW2](https://cagriustun.github.io/AutomataLab/CW5.html)
+* [CW1](https://cagriustun.github.io/AutomataLab/CW1.html)
+* [CW2](https://cagriustun.github.io/AutomataLab/CW2.html)
 * [CW3](https://cagriustun.github.io/AutomataLab/RegExp.html)
 * [CW4](https://cagriustun.github.io/AutomataLab/CW4.html)
 * [CW5](https://cagriustun.github.io/AutomataLab/CW5.html)
