@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
@@ -52,15 +53,9 @@ body {
 		</li>
 </ul>
 <hr/>
-<b>Input for CFG</b> = <input id=input type=text value="+-+-+0+-+-+" onChange="test()"> 
-<hr/>
-<b>Parse Tree</b>
-<pre id=out2></pre>
+<b>Input for CFG</b> = <b><u>a+a*a</u></b> 
 
-<hr/>
 
-<b>Derivation</b>
-<pre id=out></pre>
 
 
 
@@ -79,12 +74,29 @@ body {
     }
 </style>
 <div id=cfg>
-  S → -S- | +S+ | 0
+  X → X+X | X*X |X| a
 </div>
+<hr/>
+<b>Parse Tree</b>
+ <form>
+        <br>
+        <input type="button" name="foto" onclick="myFunction1()" value="1">
+        <input type="button" name="foto" onclick="myFunction2()" value="2">
+        <input type="button" name="foto" onclick="myFunction3()" value="3">
+        <input type="button" name="foto" onclick="myFunction4()" value="4">
+        <input type="button" name="foto" onclick="myFunction5()" value="5">
+        <input type="button" name="foto" onclick="myFunction6()" value="6">
+        <input type="button" name="foto" onclick="myFunction7()" value="7">
+        <input type="button" name="foto" onclick="myFunction8()" value="8">
+        <input type="button" name="foto" onclick="myFunction9()" value="9">
+        <input type="button" name="foto" onclick="myFunction10()" value="10">
 
-<pre id=sample></pre>
+    </form>
+	<img id="resim">
 
-<hr />
+    </img>
+
+<hr/>
 <b>Ref</b> 
 <ul>
 <li><a href="https://www.w3schools.com">w3schools</a></li>
@@ -95,52 +107,38 @@ body {
 
 
 <script>
-"use strict";
-let txt2 = '  S'
-function delta(c, p) { // Palindrome
-    if (c=='-' && p=='S')
-	{
-	return "-S-";
-	}
-    if (c=='+' && p=='S')
-	{
-	return "+S+";
-	}
-    if (c=='0' && p=='S')
-	{
-	return "0";
-	}
-    return '';  //default -- no transition
-}
-function generate(w, init='S') {
-    //w: input String
-    //init: start symbol
-    //g: generated String
-    let txt = init, g = init 
-    for (let i=0; i<w.length; i++) {
-        let c = w[i], p = g[i]
-        if (c == p) continue
-        let d = delta(c, p)
-        if (d == '') {
-          input.selectionStart = i
-          input.selectionEnd = i+1
-          break
-        }
-        g = g.replace(p, d)
-        txt = txt + "\n=> "+g
-		txt2 = txt2 + "\n /|\\ \n "+d
+ function myFunction1(){
+
+        document.images["resim"].src = "https://github.com/cagriustun/AutomataLab/blob/master/new1.png";
+
+
     }
-    return txt+'\n'+(w==g ? "Accept" : "Reject")
-}
-function test() {
-    let s = generate(input.value);
-    console.log(s); 
-	out.innerHTML = s
-	out2.innerHTML = txt2
-}
-    title.innerText = document.title;
-    sample.innerText = delta+'\n'+generate;
-    test();
+    function myFunction2(){
+
+        document.images["resim"].src = "https://github.com/cagriustun/AutomataLab/blob/master/new2.png";
+
+    }
+    function myFunction3(){
+
+        document.images["resim"].src = "https://github.com/cagriustun/AutomataLab/blob/master/new3.png";
+
+    }
+
+    function myFunction4(){
+
+        document.images["resim"].src = "https://github.com/cagriustun/AutomataLab/blob/master/new4.png";
+
+    }
+    function myFunction5(){
+
+        document.images["resim"].src = "https://github.com/cagriustun/AutomataLab/blob/master/new5.png";
+
+    }
+	function myFunction6(){
+
+        document.images["resim"].src = "https://github.com/cagriustun/AutomataLab/blob/master/new6.png";
+
+    }
 </script>
 
 </body>
