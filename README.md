@@ -10,7 +10,7 @@ Automata ve Biçimsel Diller
 * [CW5](https://cagriustun.github.io/AutomataLab/CW5.html)
 * [CW6](https://cagriustun.github.io/AutomataLab/CW6.html)
 * [CW7](https://cagriustun.github.io/AutomataLab/CW7.html)
-* [CW10](https://cagriustun.github.io/AutomataLab/CW7.html)
+* [CW10](https://raw.githubusercontent.com/cagriustun/AutomataLab/master/CW10.png)
 
 ---
 
