@@ -15,6 +15,8 @@ Automata ve Biçimsel Diller
 ### HomeWorks
 
 - [HW1](https://cagriustun.github.io/AutomataLab/Homework1.html)
+- [HW2](https://cagriustun.github.io/AutomataLab/Homework2.html)
+- [HW3](https://cagriustun.github.io/AutomataLab/Homework3.html)
 
 ---
 
