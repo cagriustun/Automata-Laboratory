@@ -18,9 +18,9 @@ Automata ve Biçimsel Diller
 * [CW5 - Expression Parser](https://cagriustun.github.io/AutomataLab/CW5.html)
 * [CW6 - PDA for Addition](https://cagriustun.github.io/AutomataLab/CW6.html)
 * [CW7 - microJ3 Parser](https://cagriustun.github.io/AutomataLab/CW7.html)
-* [CW8- Term Project Proposal](https://cagriustun.github.io/AutomataLab/)
+* [CW8 - Term Project Proposal](https://cagriustun.github.io/AutomataLab/)
 * [CW9 - Term Project First Version](https://cagriustun.github.io/AutomataLab/TermProject.html)
-* [CW10](https://raw.githubusercontent.com/cagriustun/AutomataLab/master/CW10.png)
+* [CW10 - Graph Algorithms](https://raw.githubusercontent.com/cagriustun/AutomataLab/master/CW10.png)
 
 ---
 
